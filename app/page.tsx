@@ -41,7 +41,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <div className="relative h-9 w-9 overflow-hidden rounded-full border border-white/10">
                <Image 
-                src="/Pika logo full.png" 
+                src="/logo.png" 
                 alt="Pika Notion Logo" 
                 fill 
                 className="object-cover"
