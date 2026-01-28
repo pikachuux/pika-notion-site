@@ -116,6 +116,21 @@
 }
 
 @layer base {
+  /* THE MAGIC FIX: Scale down to 90% on desktop, reset on mobile */
+  /* ... keep all your existing imports and theme settings above ... */
+
+/* FORCE 90% SCALE */
+html {
+  font-size: 90% !important;
+}
+
+/* Reset to normal on Mobile Phones so text isn't too small */
+@media (max-width: 640px) {
+  html {
+    font-size: 100% !important;
+  }
+}
+
   * {
     @apply border-border outline-ring/50;
   }

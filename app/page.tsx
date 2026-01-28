@@ -10,21 +10,21 @@ const FEATURED_PRODUCTS = [
     title: "The Custom Home Builder Agency OS",
     price: "$147",
     description: "Manage million-dollar builds with precision. Track subcontractors, permits, material budgets, and construction timelines.",
-    image: "/Custom Home Builder Tumbnail 2.png", // Ensure this is in /public folder
+    image: "/Custom Home Builder Tumbnail 2.png", // Keeping your filename exactly as is
     link: "https://pikachuux.gumroad.com/l/wpojp?layout=profile" 
   },
   {
     title: "The Marketing Agency OS",
     price: "$147",
     description: "The complete operating system for digital agencies. Manage client retainers, campaign sprints, and creative assets.",
-    image: "/The marketing agency os tumbnail.png", // Ensure this is in /public folder
+    image: "/The marketing agency os tumbnail.png", // Keeping your filename exactly as is
     link: "https://pikachuux.gumroad.com/l/hcigl?layout=profile"
   },
   {
     title: "The Auto Shop Manager OS",
     price: "$147",
     description: "Optimize your garage operations. Track repair orders, parts inventory, and mechanic labor hours efficiently.",
-    image: "/The Auto Shop Manager OS Tumbnail.png", // Ensure this is in /public folder
+    image: "/The Auto Shop Manager OS Tumbnail.png", // Keeping your filename exactly as is
     link: "https://pikachuux.gumroad.com/l/geaqwy?layout=profile"
   }
 ];
@@ -93,7 +93,7 @@ export default function Home() {
           
           <Button asChild size="lg" variant="outline" className="border-slate-800 text-slate-300 hover:bg-slate-800 hover:text-white h-12 px-8 text-base bg-transparent">
             {/* FIX: Changed Link to <a> here as well */}
-            <a href="https://pikachuux.gumroad.com">
+            <a href="#templates">
               View Templates
             </a>
           </Button>
@@ -192,25 +192,24 @@ export default function Home() {
         </div>
       </section>
 
-      {/* --- FEATURED TEMPLATES (Dynamic Section) --- */}
-      {/* ADDED: scroll-mt-24 to fix navbar overlap */}
+      {/* --- FEATURED TEMPLATES (Updated to Centered Layout) --- */}
       <section id="templates" className="py-24 bg-[#0f0f0f] border-t border-white/5 scroll-mt-24">
         <div className="container mx-auto px-4">
            
-           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-             <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">Featured Products</h2>
-                <p className="text-slate-400 text-lg">Skip the build time. Download a proven system and start today.</p>
-             </div>
-             {/* UPDATED BUTTON: NOW SOLID YELLOW */}
-             <Button asChild className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold">
+           {/* CHANGED: Now centered to match the 'Services' section above */}
+           <div className="flex flex-col items-center text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured Products</h2>
+              <p className="text-slate-400 text-lg mb-8 max-w-2xl">
+                Skip the build time. Download a proven system and start today.
+              </p>
+              
+              <Button asChild className="bg-yellow-400 text-black hover:bg-yellow-500 font-bold px-8">
                 <Link href="https://pikachuux.gumroad.com" target="_blank">
                   View Full Catalog <ArrowRight className="ml-2 h-4 w-4"/>
                 </Link>
-             </Button>
+              </Button>
            </div>
 
-           {/* ADDED 'max-w-6xl mx-auto' HERE TO SHRINK CARDS SLIGHTLY */}
            <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               {FEATURED_PRODUCTS.map((product, index) => (
                 <div key={index} className="group relative overflow-hidden rounded-2xl border border-white/10 bg-[#0a0a0a] hover:border-yellow-400/50 transition-all flex flex-col">
@@ -259,8 +258,8 @@ export default function Home() {
             </h3>
             
             <p className="text-slate-300 leading-relaxed text-xl max-w-3xl font-light">
-              I don't just "know" Notion. I've partnered with diverse businesses—from local startups to international agencies—to build custom environments that actually drive revenue. 
-              My systems don't just store data; they <strong className="text-white font-semibold">automate your operations</strong> and save you hours of manual work every single week.
+              I don't just build pages; I engineer <strong className="text-white font-semibold">business operating systems.</strong> I replace chaotic spreadsheets with fully interconnected, database-driven architectures. 
+              My systems don't just sit there—they actively manage your workflows, <strong className="text-white font-semibold">automate your busywork</strong>, and scale with your company.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-10 w-full border-t border-white/5 mt-8">
