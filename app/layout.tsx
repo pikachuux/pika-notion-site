@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pika Notion | Scalable Workspaces for Agencies & Creators", 
+  title: "Pika Notion", 
   description: "I'm Pika, founder of Pika_Notion and a Notion Certified Admin. I design high-performance, interconnected workspaces that help agencies and creators scale without the chaos.",
   keywords: [
     "Notion Certified Admin", 
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Scalable Workspaces"
   ],
   openGraph: {
-    title: "Pika Notion | Notion Certified Solutions",
+    title: "Pika Notion | Notion Creator and Solutions Provider",
     description: "Transform your business with high-performance, interconnected Notion systems. Built for agencies and creators who need to scale.",
     url: "https://pikanotion.com",
     siteName: "Pika Notion",
