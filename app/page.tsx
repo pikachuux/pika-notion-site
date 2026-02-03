@@ -81,7 +81,7 @@ export default function Home() {
         </h1>
         
         <p className="max-w-2xl text-lg md:text-xl text-slate-400 mb-10 leading-relaxed">
-          Stop using Notion like a glorified notepad. I build scalable, interconnected workspaces for agencies and creators.
+          I'm Pika, the Notion Certified founder of Pika_Notion. I design high-performance, interconnected workspaces that help agencies and creators scale without the chaos.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">

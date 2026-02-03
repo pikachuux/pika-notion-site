@@ -14,19 +14,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pika Notion", 
-  description: "Stop using Notion like a glorified notepad. We build scalable, interconnected workspaces for agencies, home builders, and creators. Notion Certified.",
-  keywords: ["Notion Templates", "Notion Certified Admin", "Agency OS", "Home Builder Software", "Notion Consultant", "Engineering Systems"],
+  title: "Pika Notion | Scalable Workspaces for Agencies & Creators", 
+  description: "I'm Pika, founder of Pika_Notion and a Notion Certified Admin. I design high-performance, interconnected workspaces that help agencies and creators scale without the chaos.",
+  keywords: [
+    "Notion Certified Admin", 
+    "Notion Consultant", 
+    "Agency OS", 
+    "Notion Systems Architect", 
+    "Notion for Creators", 
+    "Property Management Notion", 
+    "Business Infrastructure",
+    "Scalable Workspaces"
+  ],
   openGraph: {
-    title: "Pika Notion",
-    description: "Scalable Notion workspaces for high-performance businesses.",
+    title: "Pika Notion | Notion Certified Solutions",
+    description: "Transform your business with high-performance, interconnected Notion systems. Built for agencies and creators who need to scale.",
     url: "https://pikanotion.com",
     siteName: "Pika Notion",
     images: [
       {
-        url: "/logo.png", // Ensure you renamed "Pika logo full.png" to "logo.png" in your public folder!
-        width: 800,
-        height: 600,
+        url: "/logo.png", 
+        width: 800, 
+        height: 800, // Matching your square dimensions
+        alt: "Pika Notion Logo",
       },
     ],
     locale: "en_US",
