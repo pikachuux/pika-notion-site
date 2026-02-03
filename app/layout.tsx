@@ -39,6 +39,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
+  // --- THIS FIXES THE GLOBE ICON ---
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({
