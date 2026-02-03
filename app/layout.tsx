@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   // Title shows up as the clickable link in Google
-  title: "Pika Notion | Custom Notion Solutions & Scalable Templates", 
+  title: "Pika Notion", 
   
   // Description is the text below the link in Google
   description: "I'm Pika, founder of Pika Notion and a Notion Certified Admin. I design custom Notion solutions and high-performance workspaces for agencies and creators.",
@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-  // --- THIS FIXES THE GLOBE ICON ---
   icons: {
     icon: '/logo.png',
     shortcut: '/logo.png',
