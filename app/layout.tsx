@@ -14,38 +14,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pika Notion", 
-  description: "I'm Pika, founder of Pika_Notion and a Notion Certified Admin. I design high-performance, interconnected workspaces that help agencies and creators scale without the chaos.",
+  // Title shows up as the clickable link in Google
+  title: "Pika Notion | Custom Notion Solutions & Scalable Templates", 
+  
+  // Description is the text below the link in Google
+  description: "I'm Pika, founder of Pika Notion and a Notion Certified Admin. I design custom Notion solutions and high-performance workspaces for agencies and creators.",
+  
+  // Keywords help search engines categorize your site
   keywords: [
+    "Notion custom solutions", 
+    "Notion templates", 
     "Notion Certified Admin", 
-    "Notion Consultant", 
     "Agency OS", 
-    "Notion Systems Architect", 
-    "Notion for Creators", 
-    "Property Management Notion", 
-    "Business Infrastructure",
-    "Scalable Workspaces"
+    "Notion Consultant", 
+    "Custom Workspace Design"
   ],
+  
   openGraph: {
-    title: "Pika Notion | Notion Creator and Solutions Provider",
-    description: "Transform your business with high-performance, interconnected Notion systems. Built for agencies and creators who need to scale.",
+    title: "Pika Notion | Engineering-Grade Notion Systems",
+    description: "Get custom Notion solutions built by a certified expert. Scalable workspaces for high-performance businesses.",
     url: "https://pikanotion.com",
     siteName: "Pika Notion",
-    images: [
-      {
-        url: "/logo.png", 
-        width: 800, 
-        height: 800, // Matching your square dimensions
-        alt: "Pika Notion Logo",
-      },
-    ],
+    images: [{ url: "/logo.png", width: 800, height: 800 }],
     locale: "en_US",
     type: "website",
-  },
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
   },
 };
 
